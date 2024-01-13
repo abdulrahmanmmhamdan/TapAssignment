@@ -1,1 +1,17 @@
+function ReturnMissedNum(numbers){    
+   
+    const sorted=numbers.sort();
+    console.log(numbers.length);
+   for(var i = sorted[0]; i <= numbers.length; i++){
+        
+       const isavailable = sorted.includes(i);
+       if (!isavailable){
+           console.log(i);
+       }
+   }
+}
+//  const numbers  = [9,6,4,2,3,5,7,0,1];
+//  const numbers  = [0,1];
+  const numbers  = [3,0,1];
+returnmissednum(numbers);
 
