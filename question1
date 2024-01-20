@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+h5{
+color:#3BBADB;
+font-family: 'Poppins', sans-serif;
+width:100%;
+}
+
+
+
+
+
+.button1 {background-color: #008AAA;
+color: white;
+font-family: 'Poppins', sans-serif;
+width:50%;
+box-shadow: 5px 5px 2px #3BBADB;
+display:inline-block;
+margin:0px 20px 0px 0px;
+float:right;
+
+} 
+.button2 {background-color: #ffffff;
+width:50%;
+color:#008AAA;
+
+font-family: 'Poppins', sans-serif;
+border-color: #008AAA;
+border: 2px solid #008AAA;
+display:inline-block;
+
+
+}
+.twobtn{background-color:#fff;
+display:inline-block;
+width:100%;
+display:flex;
+
+}
+ .button {
+
+  
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width:100%;
+  height:30px;
+}
+ 
+
+ 
+h1{
+color:#008AAA;
+font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+  padding:30px;
+   
+  justify-content: center;
+} 
+.image {
+    width: 40%;
+    height: 100%;
+  background-color:#000;
+   
+
+}
+.img {
+    width: 100%;
+    height: 100%;
+  display: inline-block;
+  
+   
+}
+.responsive {
+  width: 100%;
+  height: auto;
+   
+}
+.text {
+  float: left;
+  width:60%;
+  padding-left:30px;
+  padding-right:40px;
+  
+}
+.special-word1{
+color:#D1884F;
+}
+.special-word2{
+color:#3BBADB;
+font-size:15px;
+}
+div.scrollmenu {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+  
+  float:right;
+
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #D1884F;
+  text-align: center;
+  padding: 14px;
+  font-family: 'Poppins', sans-serif;
+
+  text-decoration: none;
+ 
+}
+div a.active{background-color:#D1884F;
+color:#fff;
+}
+div.scrollmenu a:hover {
+  background-color: #D1884F;
+  color:#fff;
+}
+@media screen and (min-width: 100px) and (max-width: 300px) {
+ 
+  
+ div.scrollmenu {
+  background-color: #fff;
+  width:100%;
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+ 
+}
+
+div.scrollmenu a {
+
+  color: #D1884F;
+  padding: 14px;
+  width:40%;
+  text-decoration: none;
+ 
+}
+div a.active{
+background-color:#D1884F;
+color:#fff;
+}
+div.scrollmenu a:hover {
+  background-color: #D1884F;
+  color:#fff;
+}
+ .container {
+  
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+} 
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+.text {
+
+display:inline-block;
+  width:100%;
+  height:50%;
+}
+#col-rev {
+  flex-direction: column-reverse;
+}
+.image {
+
+
+  box-sizing:border-box;
+  position: relative;
+  display:inline-block;
+  width:50%;
+  height:50%;
+  margin:20px 0px 0px 0px;
+
+  transform: translateX(50%);
+
+  
+
+}
+
+.button {
+
+  
+  
+ 
+  font-size: 10px;
+ 
+}
+.img{
+  width:100%;
+  height:100%;
+
+
+
+}
+  
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="scrollmenu">
+ <a class="active" href="#home">Home</a>
+ <a href="#contactme">Contact Me</a>
+  <a href="#aboutme">About Me</a>
+  
+ 
+  
+</div>
+
+<br>
+<br>
+<br>
+
+ <div class="container" id="col-rev">
+      <div class="text">
+        <h5>welcome to my site<h5>
+  <h1 class="iamsachina">Hi, I'm Sachina, a <br>UI/UX <span class='special-word1'>Designer.</span><h1>
+  
+  <h3>I am a focused and talented B.Sc.CSIT student<br> currently pursuing my bachelor degree from Asian<br> School of Management and Technology. <span class="special-word2">See More</span></h3>
+  <div class="twobtn">
+<button class="button button1">Hire me!</button>
+<button class="button button2">See My
+Project</button>
+</div>
+      </div>
+      <div class="image">
+         <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" class="responsive">
+      </div>
+    </div>
+
+</body>
+</html>
+
+
